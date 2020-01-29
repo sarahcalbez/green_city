@@ -1,0 +1,152 @@
+/* font-family: 'Cookie', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+
+/* reset css básico */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+Body, html {
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Personalização do body*/
+
+body {
+    width: 100%;
+    background-image: url("assets/04-BG.png");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: absolute;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Personalização da container*/
+.container{
+    width: 100;
+    height: 100%;
+    position: relative;
+}
+
+/*Personalização da div left*/
+.contleft {
+    width: 60%;
+    height: 50%;
+    left: 0;
+    right: 50%
+}
+
+/*Personalização do formulário */
+    form{
+    display: block;
+    position: relative;
+    top: 47%;
+    left: 0%;
+    right: 50%;
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    float: center;
+}
+
+/*Personalização da div formulário*/
+.formulario {
+    position: relative;
+    top: 47%;
+    left: 0%;
+    right: 50%;
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    float: center;
+}
+
+/*Personalização do texto */
+p {
+    line-height: 50px;
+    text-align: center; 
+    font-family:'Cookie';
+    margin-bottom: 30px;
+    font-size: 71px;
+    color: #e0ecd3;
+}
+
+/*Personalização do botão*/
+input[type=submit]{
+    background-color:#71a397;
+    color: white;
+    font:bolder;
+    font-weight: bold;
+    font-size: 22px;
+    height: 50px;
+    letter-spacing: 1px;
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #4a8978;
+}
+
+/* Cor do placeholder*/
+::-webkit-input-placeholder {
+    color: #92c4b8;
+}
+
+/* Personalização da imagem café*/
+img {
+    top: 7%;
+    -webkit-clip-path: polygon(15% 0%, 5% 100%, 100% 100%, 100% 0%);
+    width: 40%;
+    height: -1%;
+    float: left;
+    left: 60%;
+    background-size: contain;
+    position: fixed;    
+
+}
+
+/*personalizaÃƒÂ§ÃƒÂ£o do input e textarea*/
+input, textarea{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: "Open sans", sans-serif;
+    border: none;
+    border-radius: 7px;
+}
+
+/*altura do textarea*/
+textarea{
+    height: 150px;
+}
+/*personalizaÃ§Ã£o da barra superior*/
+.barra {
+    background-image: url(assets/06-LOGO.png); 
+    background-position: center ;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: center;
+    margin: 0;
+    padding: 0;
+    background-color: #bad8c4;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7%;
+} 
+
+/*Sarah Calbez*/

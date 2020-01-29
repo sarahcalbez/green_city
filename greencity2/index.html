@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GreenCity</title>
+</head>
+<body>  
+    <div class="barra"></div>
+    <main class="container">
+        <div class="contleft">
+            <form id= "formulario">
+               <p>Vem tomar um café<br/> com a gente</p>
+               <input type="text" required autofocus pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" id="name" Title="Digite o seu nome completo." placeholder="  Nome">
+               <input type="email" id="email" required="" Title="Informe um email válido" placeholder="  Email">
+               <textarea name="message" id="message" required="" cols="30" rows="10" Title="Informe mais de 20 caracteres na mensagem." placeholder="  Mensagem"></textarea>
+               <input type="submit" value="ENVIAR" name="button">
+             </form> 
+         </div>
+         <div class="contright"> 
+            <img id="imagemcafe" src="assets/05-IMAGE.png" alt="imagem café"> 
+         </div> 
+     </main>
+     <script src="./main.js"></script>
+</body> 
+</html> 
